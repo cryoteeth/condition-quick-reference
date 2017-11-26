@@ -9,6 +9,12 @@ body {
 h2 {
     color: #2af598;
     margin: 5% 5% 0;
+    font-size: 3em;
+}
+
+h3 {
+    margin: 2%;
+    color: #2af598;
 }
 
 p {
@@ -59,4 +65,12 @@ input[type = "text"] {
 input[type = "text"]:focus {
     border-color: #e5e5e5;
     box-shadow: none;
+}
+
+.col, .col-6 {
+    padding: 2%;
+    margin: 1%;
+    border: 3px solid #e5e5e5;
+    font-size: 0.8em;
+    border-radius: .4em; /* change to 2em if .form-control can be wrangled */
 }
