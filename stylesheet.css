@@ -6,6 +6,18 @@ body {
   padding: 5% 10%;
 }
 
+h2 {
+    color: #2af598;
+    margin: 5% 5% 0;
+}
+
+p {
+    margin: 5% 10%;
+    padding: 2%;
+    border: 3px solid #e5e5e5;
+    border-radius: .4em; /* change to 2em if .form-control can be wrangled */
+}
+
 .navbar-brand {
     font-size: 2em;
     color: #e5e5e5
