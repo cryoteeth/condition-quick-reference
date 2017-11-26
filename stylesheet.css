@@ -1,0 +1,50 @@
+body {
+  background-color: #fff;
+  color: #3b3b3b;
+  font-family: Raleway;
+  font-weight: 200;
+  padding: 5% 10%;
+}
+
+.navbar-brand {
+    font-size: 2em;
+    color: #e5e5e5
+}
+
+.nav-link {
+    font-size: 1em;
+    color: #e5e5e5;
+}
+
+.nav-link:focus {
+    color: #2af598;
+}
+
+.nav-link:hover {
+    color: #2af598;
+}
+
+label {
+    font-size: 3em;
+    display: block;
+    color: #2af598;
+}
+
+.search {
+    padding: 10% 0;
+}
+
+footer {
+    font-size: 1em;
+    text-align: right;
+    color: #e5e5e5;
+}
+
+input[type = "text"] {
+    border: 3px solid #e5e5e5;
+}
+
+input[type = "text"]:focus {
+    border-color: #e5e5e5;
+    box-shadow: none;
+}
